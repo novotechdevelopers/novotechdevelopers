@@ -35,43 +35,7 @@ function FooterArch() {
               </ul>
             </div>
           </div>
-          <div className="col-lg-4">
-            <div className="item md-mb50">
-              <div className="title">
-                <h5>Recent News</h5>
-              </div>
-              <ul>
-                <li>
-                  <div className="img">
-                    <img src="/img/blog/1.jpg" alt="" />
-                  </div>
-                  <div className="sm-post">
-                    <p>
-                      The Start-Up Ultimate Guide to Make Your WordPress Journal.
-                    </p>
-                    <span className="date main-color">14 sep 2023</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="img">
-                    <img src="/img/blog/2.jpg" alt="" />
-                  </div>
-                  <div className="sm-post">
-                    <p>
-                      The Start-Up Ultimate Guide to Make Your WordPress Journal.
-                    </p>
-                    <span className="date main-color">14 sep 2023</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="subscribe">
-                    <input type="text" placeholder="Type Your Email" />
-                    <span className="subs pe-7s-paper-plane back-color"></span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
+        
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
