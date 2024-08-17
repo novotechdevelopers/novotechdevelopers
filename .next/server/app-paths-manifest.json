@@ -1,22 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/(dark)/homepage/novotech/page": "app/(dark)/homepage/novotech/page.js",
-  "/(dark)/about/about-dark/page": "app/(dark)/about/about-dark/page.js",
-  "/(dark)/blog-grid/blog-grid-dark/page": "app/(dark)/blog-grid/blog-grid-dark/page.js",
-  "/(dark)/blog-list/blog-list-dark/page": "app/(dark)/blog-list/blog-list-dark/page.js",
-  "/(dark)/blog/blog-dark/page": "app/(dark)/blog/blog-dark/page.js",
-  "/(dark)/showcase2/showcase2-dark/page": "app/(dark)/showcase2/showcase2-dark/page.js",
-  "/(dark)/contact/contact-dark/page": "app/(dark)/contact/contact-dark/page.js",
-  "/(dark)/project-details2/project-details2-dark/page": "app/(dark)/project-details2/project-details2-dark/page.js",
-  "/(dark)/showcase3/showcase3-dark/page": "app/(dark)/showcase3/showcase3-dark/page.js",
-  "/(dark)/works2/works2-dark/page": "app/(dark)/works2/works2-dark/page.js",
-  "/(dark)/showcase/showcase-dark/page": "app/(dark)/showcase/showcase-dark/page.js",
-  "/(dark)/works3/works3-dark/page": "app/(dark)/works3/works3-dark/page.js",
-  "/(dark)/blog-details/blog-details-dark/page": "app/(dark)/blog-details/blog-details-dark/page.js",
-  "/(dark)/works/works-dark/page": "app/(dark)/works/works-dark/page.js",
-  "/(mobile-app-dark)/mobile-app/portfolio-dark/page": "app/(mobile-app-dark)/mobile-app/portfolio-dark/page.js",
-  "/(mobile-app-dark)/mobile-app/mobile-app-dark/page": "app/(mobile-app-dark)/mobile-app/mobile-app-dark/page.js",
-  "/(mobile-app-dark)/mobile-app/services-dark/page": "app/(mobile-app-dark)/mobile-app/services-dark/page.js",
-  "/(mobile-app-dark)/mobile-app/shop-dark/page": "app/(mobile-app-dark)/mobile-app/shop-dark/page.js",
-  "/(mobile-app-dark)/mobile-app/pricing-plan-dark/page": "app/(mobile-app-dark)/mobile-app/pricing-plan-dark/page.js"
+  "/page": "app/page.js"
 }
