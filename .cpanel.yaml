@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOY_PATH=/home/nta/public_html
+    - export DEPLOY_PATH=/home/nta/repositories/novotech
+    - /bin/mkdir -p $DEPLOY_PATH
     - /bin/cp -R * $DEPLOY_PATH
