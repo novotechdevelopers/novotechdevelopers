@@ -1,0 +1,50 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/(dark)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dark)/layout.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/(dark)/about/about-dark/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dark)/about/about-dark/page.js"
+    ],
+    "/(dark)/contact/contact-dark/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dark)/contact/contact-dark/page.js"
+    ],
+    "/(dark)/homepage/novotech/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dark)/homepage/novotech/page.js"
+    ],
+    "/(dark)/works2/works2-dark/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dark)/works2/works2-dark/page.js"
+    ],
+    "/(dark)/blog-list/blog-list-dark/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dark)/blog-list/blog-list-dark/page.js"
+    ],
+    "/(dark)/blog-details/blog-details-dark/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dark)/blog-details/blog-details-dark/page.js"
+    ]
+  }
+}

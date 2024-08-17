@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/(dark)/about/about-dark/page": "app/(dark)/about/about-dark/page.js",
+  "/(dark)/blog-details/blog-details-dark/page": "app/(dark)/blog-details/blog-details-dark/page.js",
+  "/(dark)/blog-list/blog-list-dark/page": "app/(dark)/blog-list/blog-list-dark/page.js",
+  "/(dark)/works2/works2-dark/page": "app/(dark)/works2/works2-dark/page.js"
+}

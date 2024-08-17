@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "title":"Emirati-Russian Investment Forum 2024",
+    "content":"We are thrilled to announce the Emirati-Russian Investment Forum, taking place on October 4, 2024, in Dubai. This premier event is designed to foster stronger trade and investment relations between the UAE and Russia, offering unparalleled opportunities for businesses and investors from both regions.",
+    "image": "/img/blog/forum1.png",
+    "tags": ["Russia", "United Arab Emirates", "Novotech"],
+    "date": {
+      "day": "14 ",
+      "month": "August"
+    }
+  }
+]

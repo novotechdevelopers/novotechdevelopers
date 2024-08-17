@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "icon": "pe-7s-paint-bucket",
+      "title": "Graphic Design",
+      "content": "Unleash your brand's potential with our bespoke graphic design services, turning concepts into captivating visuals."
+    },
+    {
+      "id": 2,
+      "icon": "pe-7s-phone",
+      "title": "Web & Mobile Application Development",
+      "content": "We build responsive, user-friendly applications designed to deliver seamless experiences across all devices."
+    },
+    {
+      "id": 3,
+      "icon": "pe-7s-display1",
+      "title": "Social Media Marketing",
+      "content": "Our team creates compelling content and campaigns that resonate with your audience, boosting your brand's visibility."
+    }
+  
+  ]
+  

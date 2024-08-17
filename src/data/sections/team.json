@@ -1,0 +1,45 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "image": "/img/team/1.png",
+      "title": "Mr. NIDAL AL-SHEKHAH",
+      "sub": "CEO"
+    },
+    {
+      "id": 2,
+      "image": "/img/team/2.png",
+      "title": "HANYA ZIA UL HAQ",
+      "sub": "Lead Web Developer - IT MANAGER"
+    },
+    {
+      "id": 3,
+      "image": "/img/team/3.png",
+      "title": "SABRINE IJBAR",
+      "sub": "Marketing Specialist"
+    }, 
+    {
+      "id": 4,
+      "image": "/img/team/4.png",
+      "title": "ALI AFIFI",
+      "sub": "Designer - SMM"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "text": "UI / UX Design",
+      "value": "90%"
+    },
+    {
+      "id": 2,
+      "text": "Apps Development",
+      "value": "80%"
+    }, 
+    {
+      "id" : 3, 
+       "text" : "Digital Marketing", 
+       "value" : "90%"
+    }
+  ]
+}
