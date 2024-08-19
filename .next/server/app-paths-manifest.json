@@ -1,8 +1,8 @@
 {
-  "/(dark)/event/page": "app/(dark)/event/page.js",
-  "/(dark)/eventUpdates/page": "app/(dark)/eventUpdates/page.js",
-  "/(dark)/home/page": "app/(dark)/home/page.js",
   "/(dark)/about/page": "app/(dark)/about/page.js",
-  "/(dark)/contact/page": "app/(dark)/contact/page.js",
-  "/(dark)/services/page": "app/(dark)/services/page.js"
+  "/(dark)/home/page": "app/(dark)/home/page.js",
+  "/(dark)/eventUpdates/page": "app/(dark)/eventUpdates/page.js",
+  "/(dark)/event/page": "app/(dark)/event/page.js",
+  "/(dark)/services/page": "app/(dark)/services/page.js",
+  "/(dark)/contact/page": "app/(dark)/contact/page.js"
 }

@@ -80,11 +80,6 @@ const Navbar = ({ lr, theme }) => {
               Contact Us
               </a>
             </li>
-
-
-            
-          
-     
           </ul>
         </div>
       </div>
