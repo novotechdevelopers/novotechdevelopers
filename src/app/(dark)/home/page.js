@@ -35,11 +35,11 @@ function HomePage() {
       <MinimalArea2 />
       <FullTestimonials classText="pb-0" />
       <Team />
-      <Blogs />
-      <CallToAction />
+      
+      <CallxToAction />
       <Footer />
     </>
-  );
+  );x
 }
 
 export default HomePage;
