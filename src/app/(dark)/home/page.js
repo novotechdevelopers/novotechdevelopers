@@ -36,7 +36,7 @@ function HomePage() {
       <FullTestimonials classText="pb-0" />
       <Team />
       
-      <CallxToAction />
+      <CallToAction />
       <Footer />
     </>
   );x
