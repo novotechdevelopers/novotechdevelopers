@@ -8,7 +8,7 @@ import ProgressScroll from "@/components/Common/ProgressScroll";
 //= Page Components
 import CircleBg from "@/components/Demos/CircleBg";
 import Header from "@/components/Demos/Header";
-import HomePage from "./(dark)/homepage/novotech/page";
+import HomePage from "./(dark)/home/page";
 
 export const metadata = {
   title: 'Novotech LLC',

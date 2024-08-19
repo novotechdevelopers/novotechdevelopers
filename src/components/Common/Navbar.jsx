@@ -56,27 +56,27 @@ const Navbar = ({ lr, theme }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-              <a className="nav-link" href={`/homepage/novotech/`}>
+              <a className="nav-link" href={`/home`}>
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`/about/about-dark`}>
+              <a className="nav-link" href={`/about`}>
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`/works2/works2-dark/`}>
+              <a className="nav-link" href={`/services`}>
                Services
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`/blog-list/blog-list-dark`}>
+              <a className="nav-link" href={`/eventUpdates`}>
              Event Updates
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`/contact/contact-dark`}>
+              <a className="nav-link" href={`/contact`}>
               Contact Us
               </a>
             </li>

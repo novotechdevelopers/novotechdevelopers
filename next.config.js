@@ -2,7 +2,6 @@
 const path = require("path");
 
 const nextConfig = {
-  output: 'export',
   reactStrictMode: false,
   sassOptions: {
     includePaths: [path.join(__dirname, "css")],
@@ -13,7 +12,24 @@ const nextConfig = {
   },
   eslint: {
     ignoreDuringBuilds: false,
-  }
-}
+  },
+ 
+  async rewrites() {
+    return [
+      {
+        source: '/homepage/novotech/',
+        destination: '/homepage',
+      },
+      {
+        source: '/contact',
+        destination: '/contact-us',
+      },
+      {
+        source: '/our-services/:service',
+        destination: '/services/:service',
+      },
+    ];
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
