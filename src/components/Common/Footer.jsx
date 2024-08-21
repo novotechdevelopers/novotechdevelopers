@@ -15,7 +15,7 @@ function Footer({ hideBGCOLOR }) {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Officeal Address</h6>
-                    <p>Deira - Near Dnata Dubai Al Najoum Bld - Office Number 107</p>
+                    <p>Deira - Near Dnata Dubai Al Najoum Building - Office Number 107</p>
                   </div>
                 </li>
                 <li>
@@ -44,18 +44,14 @@ function Footer({ hideBGCOLOR }) {
                 <img src="/img/logo-light.png" alt="logo" />
               </div>
               <div className="social">
-                <a href="#0">
+                <a href="https://www.facebook.com/profile.php?id=61559263057420">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#0">
+               
+                <a href="https://www.instagram.com/novotech.uae/?igsh=MTgwMXBxY3N0Y295dA%3D%3D">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-youtube"></i>
-                </a>
+                
               </div>
               <div className="copy-right">
                 <p>
