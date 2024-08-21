@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST = {__rewrites:{beforeFiles:[],afterFiles:[{source:"\u002Fhomepage\u002Fnovotech\u002F",destination:"\u002Fhomepage"},{source:"\u002Fcontact",destination:"\u002Fcontact-us"},{source:"\u002Four-services\u002F:service",destination:"\u002Fservices\u002F:service"}],fallback:[]},sortedPages:["\u002F_app"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
