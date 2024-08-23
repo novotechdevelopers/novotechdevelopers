@@ -33,7 +33,7 @@ function HomePage() {
       <Works />
       <Services />
       <MinimalArea2 />
-      <FullTestimonials classText="pb-0" />
+    
       <Team />
       
       <CallToAction />
