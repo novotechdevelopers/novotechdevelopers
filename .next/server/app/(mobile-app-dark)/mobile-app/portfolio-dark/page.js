@@ -772,7 +772,7 @@ function Portfolio() {
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [687,111,196,485,643,996], () => (__webpack_exec__(916)));
+var __webpack_exports__ = __webpack_require__.X(0, [687,526,196,875,643,996], () => (__webpack_exec__(916)));
 module.exports = __webpack_exports__;
 
 })();

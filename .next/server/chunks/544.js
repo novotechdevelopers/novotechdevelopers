@@ -907,8 +907,6 @@ function MinimalArea1() {
 }
 /* harmony default export */ const MinimalArea2 = (MinimalArea1);
 
-// EXTERNAL MODULE: ./src/common/removeSlashpagination.js
-var removeSlashpagination = __webpack_require__(3509);
 ;// CONCATENATED MODULE: ./src/components/Testimonials/FullTestimonials.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ function FullTestimonials_ownKeys(object, enumerableOnly) {
     var keys = Object.keys(object);
@@ -980,30 +978,30 @@ const FullTestimonials_swiperOptions = {
     }
 };
 function FullTestimonials({ withIMG, withCOLOR, noPadding, classText, showHead }) {
-    (0,react_.useEffect)(()=>{
-        (0,removeSlashpagination/* default */.Z)();
+    useEffect(()=>{
+        removeSlashFromBagination();
     }, []);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+    return /*#__PURE__*/ _jsxs("section", {
         className: `testimonials ${withIMG ? "section-padding bg-img" : withCOLOR ? "section-padding back-color" : noPadding ? "" : "section-padding"} ${classText ? classText : ""}`,
         style: {
             backgroundImage: `${withIMG ? "url(" + withIMG + ")" : "none"}`
         },
         children: [
-            showHead && /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            showHead && /*#__PURE__*/ _jsx("div", {
                 className: "container",
-                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                children: /*#__PURE__*/ _jsx("div", {
                     className: "row justify-content-center",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    children: /*#__PURE__*/ _jsx("div", {
                         className: "col-lg-8 col-md-10",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        children: /*#__PURE__*/ _jsxs("div", {
                             className: "sec-head text-center",
                             children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                /*#__PURE__*/ _jsx("h6", {
                                     className: "wow fadeIn",
                                     "data-wow-delay": ".5s",
                                     children: "Testimonials"
                                 }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                /*#__PURE__*/ _jsx("h3", {
                                     className: "wow color-font",
                                     children: "We love our clients from all over the world."
                                 })
@@ -1012,40 +1010,40 @@ function FullTestimonials({ withIMG, withCOLOR, noPadding, classText, showHead }
                     })
                 })
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            /*#__PURE__*/ _jsxs("div", {
                 className: "container-fluid position-re",
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    /*#__PURE__*/ _jsx("div", {
                         className: "row wow fadeInUp",
                         "data-wow-delay": ".5s",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        children: /*#__PURE__*/ _jsx("div", {
                             className: "col-lg-12",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(swiper_react/* Swiper */.tq, FullTestimonials_objectSpread(FullTestimonials_objectSpread({}, FullTestimonials_swiperOptions), {}, {
+                            children: /*#__PURE__*/ _jsxs(Swiper, FullTestimonials_objectSpread(FullTestimonials_objectSpread({}, FullTestimonials_swiperOptions), {}, {
                                 className: "slic-item",
                                 "data-wow-delay": ".5s",
                                 children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)(swiper_react/* SwiperSlide */.o5, {
+                                    /*#__PURE__*/ _jsxs(SwiperSlide, {
                                         className: "item",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            /*#__PURE__*/ _jsx("div", {
                                                 className: "info valign",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                children: /*#__PURE__*/ _jsx("div", {
                                                     className: "cont",
-                                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                    children: /*#__PURE__*/ _jsxs("div", {
                                                         className: "author",
                                                         children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                            /*#__PURE__*/ _jsx("div", {
                                                                 className: "img",
-                                                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                children: /*#__PURE__*/ _jsx("img", {
                                                                     src: "/img/clients/1.jpg",
                                                                     alt: ""
                                                                 })
                                                             }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                            /*#__PURE__*/ _jsx("h6", {
                                                                 className: "author-name color-font",
                                                                 children: "Alex Regelman"
                                                             }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                            /*#__PURE__*/ _jsx("span", {
                                                                 className: "author-details",
                                                                 children: " Co-founder, Colabrio "
                                                             })
@@ -1053,33 +1051,33 @@ function FullTestimonials({ withIMG, withCOLOR, noPadding, classText, showHead }
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            /*#__PURE__*/ _jsx("p", {
                                                 children: "I would highly recommend Vie Digital. I worked with the team on an animation for our ‘Click & Collect’ service."
                                             })
                                         ]
                                     }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)(swiper_react/* SwiperSlide */.o5, {
+                                    /*#__PURE__*/ _jsxs(SwiperSlide, {
                                         className: "item",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            /*#__PURE__*/ _jsx("div", {
                                                 className: "info valign",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                children: /*#__PURE__*/ _jsx("div", {
                                                     className: "cont",
-                                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                    children: /*#__PURE__*/ _jsxs("div", {
                                                         className: "author",
                                                         children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                            /*#__PURE__*/ _jsx("div", {
                                                                 className: "img",
-                                                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                children: /*#__PURE__*/ _jsx("img", {
                                                                     src: "/img/clients/1.jpg",
                                                                     alt: ""
                                                                 })
                                                             }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                            /*#__PURE__*/ _jsx("h6", {
                                                                 className: "author-name color-font",
                                                                 children: "Alex Regelman"
                                                             }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                            /*#__PURE__*/ _jsx("span", {
                                                                 className: "author-details",
                                                                 children: " Co-founder, Colabrio "
                                                             })
@@ -1087,33 +1085,33 @@ function FullTestimonials({ withIMG, withCOLOR, noPadding, classText, showHead }
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            /*#__PURE__*/ _jsx("p", {
                                                 children: "I would highly recommend Vie Digital. I worked with the team on an animation for our ‘Click & Collect’ service."
                                             })
                                         ]
                                     }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)(swiper_react/* SwiperSlide */.o5, {
+                                    /*#__PURE__*/ _jsxs(SwiperSlide, {
                                         className: "item",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            /*#__PURE__*/ _jsx("div", {
                                                 className: "info valign",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                children: /*#__PURE__*/ _jsx("div", {
                                                     className: "cont",
-                                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                    children: /*#__PURE__*/ _jsxs("div", {
                                                         className: "author",
                                                         children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                            /*#__PURE__*/ _jsx("div", {
                                                                 className: "img",
-                                                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                children: /*#__PURE__*/ _jsx("img", {
                                                                     src: "/img/clients/1.jpg",
                                                                     alt: ""
                                                                 })
                                                             }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                            /*#__PURE__*/ _jsx("h6", {
                                                                 className: "author-name color-font",
                                                                 children: "Alex Regelman"
                                                             }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                            /*#__PURE__*/ _jsx("span", {
                                                                 className: "author-details",
                                                                 children: " Co-founder, Colabrio "
                                                             })
@@ -1121,33 +1119,33 @@ function FullTestimonials({ withIMG, withCOLOR, noPadding, classText, showHead }
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            /*#__PURE__*/ _jsx("p", {
                                                 children: "I would highly recommend Vie Digital. I worked with the team on an animation for our ‘Click & Collect’ service."
                                             })
                                         ]
                                     }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)(swiper_react/* SwiperSlide */.o5, {
+                                    /*#__PURE__*/ _jsxs(SwiperSlide, {
                                         className: "item",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            /*#__PURE__*/ _jsx("div", {
                                                 className: "info valign",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                children: /*#__PURE__*/ _jsx("div", {
                                                     className: "cont",
-                                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                    children: /*#__PURE__*/ _jsxs("div", {
                                                         className: "author",
                                                         children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                            /*#__PURE__*/ _jsx("div", {
                                                                 className: "img",
-                                                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                children: /*#__PURE__*/ _jsx("img", {
                                                                     src: "/img/clients/1.jpg",
                                                                     alt: ""
                                                                 })
                                                             }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                            /*#__PURE__*/ _jsx("h6", {
                                                                 className: "author-name color-font",
                                                                 children: "Alex Regelman"
                                                             }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                            /*#__PURE__*/ _jsx("span", {
                                                                 className: "author-details",
                                                                 children: " Co-founder, Colabrio "
                                                             })
@@ -1155,7 +1153,7 @@ function FullTestimonials({ withIMG, withCOLOR, noPadding, classText, showHead }
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            /*#__PURE__*/ _jsx("p", {
                                                 children: "I would highly recommend Vie Digital. I worked with the team on an animation for our ‘Click & Collect’ service."
                                             })
                                         ]
@@ -1164,20 +1162,20 @@ function FullTestimonials({ withIMG, withCOLOR, noPadding, classText, showHead }
                             }))
                         })
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    /*#__PURE__*/ _jsx("div", {
                         className: "arrows",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        children: /*#__PURE__*/ _jsxs("div", {
                             className: "container",
                             children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                /*#__PURE__*/ _jsx("div", {
                                     className: "next cursor-pointer",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                    children: /*#__PURE__*/ _jsx("span", {
                                         className: "pe-7s-angle-right"
                                     })
                                 }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                /*#__PURE__*/ _jsx("div", {
                                     className: "prev cursor-pointer",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                    children: /*#__PURE__*/ _jsx("span", {
                                         className: "pe-7s-angle-left"
                                     })
                                 })
@@ -1189,7 +1187,7 @@ function FullTestimonials({ withIMG, withCOLOR, noPadding, classText, showHead }
         ]
     });
 }
-/* harmony default export */ const Testimonials_FullTestimonials = (FullTestimonials);
+/* harmony default export */ const Testimonials_FullTestimonials = ((/* unused pure expression or super */ null && (FullTestimonials)));
 
 // EXTERNAL MODULE: ./src/components/Team/Team1.jsx + 2 modules
 var Team1 = __webpack_require__(3414);
@@ -1729,9 +1727,6 @@ function HomePage() {
             /*#__PURE__*/ jsx_runtime_.jsx(Works_Works3, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Demos_Services, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(MinimalArea2, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(Testimonials_FullTestimonials, {
-                classText: "pb-0"
-            }),
             /*#__PURE__*/ jsx_runtime_.jsx(Team1["default"], {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Demos_CallToAction, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Common_Footer, {})
@@ -1740,24 +1735,6 @@ function HomePage() {
     x;
 }
 /* harmony default export */ const page = (HomePage);
-
-
-/***/ }),
-
-/***/ 3509:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-const removeSlashFromPagination = ()=>{
-    if (document.querySelectorAll(".swiper-pagination")) {
-        document.querySelectorAll(".swiper-pagination").forEach((item)=>{
-            item.innerHTML = item.innerHTML.replace(" / ", "");
-        });
-    }
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (removeSlashFromPagination);
 
 
 /***/ }),

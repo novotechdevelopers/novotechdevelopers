@@ -224,7 +224,7 @@ __webpack_require__.r(__webpack_exports__);
         'about',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8548)), "/Users/pablo/Desktop/project/src/app/(dark)/about/page.js"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1938)), "/Users/pablo/Desktop/project/src/app/(dark)/about/page.js"],
           
         }]
       },
@@ -271,17 +271,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 8241:
+/***/ 1139:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4104));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6603));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3042));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8462));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3414));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2575));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 340));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4750, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 340))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2575));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8462));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3414))
 
 /***/ }),
 
@@ -693,7 +693,7 @@ function TestimonialsWithVideo() {
 
 /***/ }),
 
-/***/ 8548:
+/***/ 1938:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -933,8 +933,19 @@ const MinimalArea1_default_ = MinimalArea1_proxy.default;
 
 
 /* harmony default export */ const MinimalArea1 = (MinimalArea1_default_);
-// EXTERNAL MODULE: ./src/components/Common/Split.jsx
-var Common_Split = __webpack_require__(6711);
+;// CONCATENATED MODULE: ./src/components/Common/Split.jsx
+
+const Split_proxy = (0,module_proxy.createProxy)(String.raw`/Users/pablo/Desktop/project/src/components/Common/Split.jsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule: Split_esModule, $$typeof: Split_$$typeof } = Split_proxy;
+const Split_default_ = Split_proxy.default;
+
+
+/* harmony default export */ const Common_Split = (Split_default_);
 ;// CONCATENATED MODULE: ./src/data/sections/clients.json
 const clients_namespaceObject = [];
 ;// CONCATENATED MODULE: ./src/components/Clients/Clients1.jsx
@@ -1072,7 +1083,7 @@ function CallToAction({ img }) {
                         className: "col-md-8 col-lg-9",
                         children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             className: "content sm-mb30",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Common_Split/* default */.ZP, {
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Common_Split, {
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("h6", {
                                         className: "wow words chars splitting",
@@ -1164,30 +1175,6 @@ function AboutDark() {
 /* harmony default export */ const page = (AboutDark);
 
 
-/***/ }),
-
-/***/ 6711:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   ZP: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* unused harmony exports __esModule, $$typeof */
-/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7176);
-
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/pablo/Desktop/project/src/components/Common/Split.jsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule, $$typeof } = proxy;
-const __default__ = proxy.default;
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
-
 /***/ })
 
 };
@@ -1197,7 +1184,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [687,210,342,111,196,231,603,423,158,157,530], () => (__webpack_exec__(8031)));
+var __webpack_exports__ = __webpack_require__.X(0, [687,210,342,526,196,350,603,423,158,157,530], () => (__webpack_exec__(8031)));
 module.exports = __webpack_exports__;
 
 })();

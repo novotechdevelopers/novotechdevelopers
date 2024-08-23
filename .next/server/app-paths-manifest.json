@@ -1,6 +1,22 @@
 {
   "/page": "app/page.js",
-  "/(dark)/event/page": "app/(dark)/event/page.js",
+  "/(dark)/home/page": "app/(dark)/home/page.js",
+  "/(dark)/contact/page": "app/(dark)/contact/page.js",
   "/(dark)/eventUpdates/page": "app/(dark)/eventUpdates/page.js",
-  "/(dark)/contact/page": "app/(dark)/contact/page.js"
+  "/(dark)/about/page": "app/(dark)/about/page.js",
+  "/(dark)/news/page": "app/(dark)/news/page.js",
+  "/(dark)/event/page": "app/(dark)/event/page.js",
+  "/(dark)/services/page": "app/(dark)/services/page.js",
+  "/(dark)/blog-grid/blog-grid-dark/page": "app/(dark)/blog-grid/blog-grid-dark/page.js",
+  "/(dark)/showcase/showcase-dark/page": "app/(dark)/showcase/showcase-dark/page.js",
+  "/(dark)/project-details2/project-details2-dark/page": "app/(dark)/project-details2/project-details2-dark/page.js",
+  "/(dark)/showcase3/showcase3-dark/page": "app/(dark)/showcase3/showcase3-dark/page.js",
+  "/(dark)/works3/works3-dark/page": "app/(dark)/works3/works3-dark/page.js",
+  "/(dark)/works/works-dark/page": "app/(dark)/works/works-dark/page.js",
+  "/(dark)/showcase2/showcase2-dark/page": "app/(dark)/showcase2/showcase2-dark/page.js",
+  "/(mobile-app-dark)/mobile-app/portfolio-dark/page": "app/(mobile-app-dark)/mobile-app/portfolio-dark/page.js",
+  "/(mobile-app-dark)/mobile-app/services-dark/page": "app/(mobile-app-dark)/mobile-app/services-dark/page.js",
+  "/(mobile-app-dark)/mobile-app/shop-dark/page": "app/(mobile-app-dark)/mobile-app/shop-dark/page.js",
+  "/(mobile-app-dark)/mobile-app/pricing-plan-dark/page": "app/(mobile-app-dark)/mobile-app/pricing-plan-dark/page.js",
+  "/(mobile-app-dark)/mobile-app/mobile-app-dark/page": "app/(mobile-app-dark)/mobile-app/mobile-app-dark/page.js"
 }
