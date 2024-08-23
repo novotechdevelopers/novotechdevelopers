@@ -5,6 +5,8 @@ import Content from './Details/Content';
 import Pagination from './Details/Pagination';
 import CommentsArea from './Details/CommentsArea';
 import CommentsForm from './Details/CommentsForm';
+import ContactFormS from "../Contact/ContactFormS";
+
 
 const BlogDetails = ({ theme }) => {
   return (
@@ -15,9 +17,10 @@ const BlogDetails = ({ theme }) => {
             <div className="post">
               <Image />
               <Content />
+             
               <Pagination />
             
-             
+             <ContactFormS/>
             </div>
           </div>
         </div>
