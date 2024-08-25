@@ -1,8 +1,9 @@
-// ContactForm.js
-"use client"; 
+"use client";
 
 import React from 'react';
 import emailjs from 'emailjs-com';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 import Split from '@/components/Common/Split';
 import contentFormData from "@/data/contact-form.json";
 
@@ -24,7 +25,7 @@ function ContactFormS({ theme }) {
         <div className="row">
           <div className="col-lg-6">
             <div className="form md-mb50">
-              <h4 className="fw-700 color-font mb-50">Sign Up With us</h4>
+              <h4 className="fw-700 color-font mb-50">Sign Up With Us</h4>
 
               <form id="contact-form" onSubmit={sendEmail}>
                 <div className="messages"></div>
@@ -36,6 +37,16 @@ function ContactFormS({ theme }) {
 
                   <div className="form-group">
                     <input id="form_email" type="email" name="email" placeholder="Email" required />
+                  </div>
+
+                  <div className="form-group">
+                    <PhoneInput
+                      country={'us'}
+                      id="form_phone"
+                      name="phone"
+                      placeholder="Phone Number"
+                      required
+                    />
                   </div>
 
                   <div className="form-group">
