@@ -1,13 +1,11 @@
-"use client";
-
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import PhoneInput from 'react-phone-input-2';
-import 'react-phone-input-2/lib/style.css';
-import Split from '@/components/Common/Split';
-import contentFormData from "@/data/contact-form.json";
+import countries from './countries'; 
 
-function ContactFormS({ theme }) {
+const ContactForm = ({ theme }) => {
+  const [selectedCountryCode, setSelectedCountryCode] = useState('+1'); 
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -17,6 +15,10 @@ function ContactFormS({ theme }) {
       }, (error) => {
         alert('Error sending message, please try again.');
       });
+  };
+
+  const handleCountryCodeChange = (event) => {
+    setSelectedCountryCode(event.target.value);
   };
 
   return (
@@ -40,8 +42,15 @@ function ContactFormS({ theme }) {
                   </div>
 
                   <div className="form-group">
-                    <PhoneInput
-                      country={'us'}
+                    <select id="countryCode" value={selectedCountryCode} onChange={handleCountryCodeChange} required>
+                      {countries.map((country) => (
+                        <option key={country.code} value={country.dial_code}>
+                          {country.flag} {country.name} ({country.dial_code})
+                        </option>
+                      ))}
+                    </select>
+                    <input
+                      type="tel"
                       id="form_phone"
                       name="phone"
                       placeholder="Phone Number"
@@ -63,23 +72,18 @@ function ContactFormS({ theme }) {
           <div className="col-lg-5 offset-lg-1">
             <div className="cont-info">
               <h4 className="fw-700 color-font mb-50">Contact Info.</h4>
-              <Split>
-                <h3 className="wow" data-splitting>{contentFormData.title}</h3>
-              </Split>
+              {/* Replace contentFormData with actual data or import it if needed */}
               <div className="item mb-40">
                 <h5>
-                  <a href="#0">{contentFormData.email}</a>
+                  <a href="#0">contact@example.com</a>
                 </h5>
-                <h5>{contentFormData.phone}</h5>
+                <h5>(123) 456-7890</h5>
               </div>
-              <Split>
-                <h3 className="wow" data-splitting>Visit Us.</h3>
-              </Split>
               <div className="item">
                 <h6>
-                  {contentFormData.location.first}
+                  123 Main Street
                   <br />
-                  {contentFormData.location.second}
+                  City, Country 12345
                 </h6>
               </div>
               <div className="social mt-50">
@@ -96,6 +100,6 @@ function ContactFormS({ theme }) {
       </div>
     </section>
   );
-}
+};
 
-export default ContactFormS;
+export default ContactForm;
