@@ -53,6 +53,7 @@ const ContactForm = ({ theme }) => {
               <h4 className="fw-700 color-font mb-50">Sign Up With Us</h4>
 
               <form id="contact-form" onSubmit={sendEmail}>
+                
                 <div className="messages">
                   {message && <p>{message}</p>}
                 </div>
@@ -77,7 +78,16 @@ const ContactForm = ({ theme }) => {
                       required 
                     />
                   </div>
-
+                  <div className="form-group">
+                    <input 
+                      id="form_logo" 
+                      type="text" 
+                      name="from_logo" 
+                      placeholder="Please Link to your Company Profile or Logo Image!" 
+                      required 
+                    />
+                  </div>
+                  
                   <div className="form-group" style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
                     <select 
                       id="countryCode" 

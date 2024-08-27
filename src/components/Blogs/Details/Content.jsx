@@ -152,9 +152,9 @@ function Content() {
 
                 <li>
                   <b>Bank Account Details: </b>
-                  NOVOTECH FOR MARKETING SERVICES VIA SOCIAL MEDIA CO LLC, 
-                  Emirates NBD,
-                   A/C No. 6605839917101 , IBAN: AE74 0260 0066 0583 9917 101
+                  NOVOTECH FOR MARKETING SERVICES VIA SOCIAL MEDIA CO LLC
+                 
+                   <b> Emirates NBD, A/C No. 6605839917101 , IBAN: AE74 0260 0066 0583 9917 101</b>
                 </li>
               
               </ul>
