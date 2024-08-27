@@ -18,7 +18,7 @@ const BlogDetails = ({ theme }) => {
               <Image />
               <Content />
              
-              <Pagination />
+         
             
              <ContactFormS/>
             </div>

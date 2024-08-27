@@ -1,24 +1,47 @@
-"use client"
+"use client"; // Ensure this directive is at the top for React 18+
+
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import countries from './countries'; 
+import countries from './countries'; // Ensure this path is correct
+import Split from '../Common/Split';
+import contentFormData from "@/data/contact-form.json"; // Ensure this path is correct
 
 const ContactForm = ({ theme }) => {
   const [selectedCountryCode, setSelectedCountryCode] = useState('+1'); 
+  const [phoneNumber, setPhoneNumber] = useState('');
+  const [loading, setLoading] = useState(false);  
+  const [message, setMessage] = useState('');  
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
+    console.log('Form submission triggered');
 
-    emailjs.sendForm('service_rhs1k2k', 'template_ok37jms', e.target, 'Hjn_XQpy-pMwUdqJ5')
-      .then((result) => {
-        alert('Message sent successfully!');
-      }, (error) => {
-        alert('Error sending message, please try again.');
-      });
+    const fullPhoneNumber = `${selectedCountryCode} ${phoneNumber}`;
+    console.log('Full Phone Number:', fullPhoneNumber);
+
+    const formData = new FormData(e.target);
+    formData.append('phone_number', fullPhoneNumber);
+
+    setLoading(true);  
+    try {
+      console.log('Sending email...');
+      const result = await emailjs.sendForm('service_rhs1k2k', 'template_ok37jms', e.target, 'Hjn_XQpy-pMwUdqJ5');
+      console.log('Email sent successfully:', result);
+      setMessage('Thank you for reaching out! Your message has been sent successfully. Our Team will get back to You Shortly!');
+    } catch (error) {
+      console.error('Error sending email:', error);
+      setMessage('Oops! Something went wrong. Please try again later.');
+    } finally {
+      setLoading(false); 
+    }
   };
 
   const handleCountryCodeChange = (event) => {
     setSelectedCountryCode(event.target.value);
+  };
+
+  const handlePhoneNumberChange = (event) => {
+    setPhoneNumber(event.target.value);
   };
 
   return (
@@ -30,40 +53,71 @@ const ContactForm = ({ theme }) => {
               <h4 className="fw-700 color-font mb-50">Sign Up With Us</h4>
 
               <form id="contact-form" onSubmit={sendEmail}>
-                <div className="messages"></div>
+                <div className="messages">
+                  {message && <p>{message}</p>}
+                </div>
 
                 <div className="controls">
                   <div className="form-group">
-                    <input id="form_name" type="text" name="name" placeholder="Name" required />
+                    <input 
+                      id="from_name" 
+                      type="text" 
+                      name="from_name" 
+                      placeholder="Your Name" 
+                      required 
+                    />
                   </div>
 
                   <div className="form-group">
-                    <input id="form_email" type="email" name="email" placeholder="Email" required />
+                    <input 
+                      id="form_email" 
+                      type="email" 
+                      name="from_email" 
+                      placeholder="Your Email" 
+                      required 
+                    />
                   </div>
 
-                  <div className="form-group">
-                    <select id="countryCode" value={selectedCountryCode} onChange={handleCountryCodeChange} required>
+                  <div className="form-group" style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
+                    <select 
+                      id="countryCode" 
+                       name = "country_code"
+                      value={selectedCountryCode} 
+                      onChange={handleCountryCodeChange} 
+                      required
+                      style={{ flex: '1', minWidth: '120px' }}
+                    >
                       {countries.map((country) => (
                         <option key={country.code} value={country.dial_code}>
-                          {country.flag} {country.name} ({country.dial_code})
+                          {country.flag} {country.code} ({country.dial_code})
                         </option>
                       ))}
                     </select>
                     <input
                       type="tel"
                       id="form_phone"
-                      name="phone"
+                      name="phone_number"
+                      value={phoneNumber}
+                      onChange={handlePhoneNumberChange}
                       placeholder="Phone Number"
+                      pattern="[0-9]*"
+                      style={{ flex: '2', minWidth: '200px' }}
                       required
                     />
                   </div>
 
                   <div className="form-group">
-                    <textarea id="form_message" name="message" placeholder="Message" rows="4" required></textarea>
+                    <textarea 
+                      id="form_message" 
+                      name="message" 
+                      placeholder="Type your Query Here...... !!" 
+                      rows="4" 
+                      required 
+                    />
                   </div>
 
-                  <button type="submit" className={`butn ${theme === 'light' ? 'dark' : 'bord'}`}>
-                    <span>Send Message</span>
+                  <button type="submit" className={`butn ${theme === 'light' ? 'dark' : 'bord'}`} disabled={loading}>
+                    <span>{loading ? 'Sending...' : 'Send Message'}</span>
                   </button>
                 </div>
               </form>
@@ -72,18 +126,23 @@ const ContactForm = ({ theme }) => {
           <div className="col-lg-5 offset-lg-1">
             <div className="cont-info">
               <h4 className="fw-700 color-font mb-50">Contact Info.</h4>
-              {/* Replace contentFormData with actual data or import it if needed */}
+              <Split>
+                <h3 className="wow" data-splitting>{contentFormData.title}</h3>
+              </Split>
               <div className="item mb-40">
                 <h5>
-                  <a href="#0">contact@example.com</a>
+                  <a href="#0">{contentFormData.email}</a>
                 </h5>
-                <h5>(123) 456-7890</h5>
+                <h5>{contentFormData.phone}</h5>
               </div>
+              <Split>
+                <h3 className="wow" data-splitting>Visit Us.</h3>
+              </Split>
               <div className="item">
                 <h6>
-                  123 Main Street
+                  {contentFormData.location.first}
                   <br />
-                  City, Country 12345
+                  
                 </h6>
               </div>
               <div className="social mt-50">

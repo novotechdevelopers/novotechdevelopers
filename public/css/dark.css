@@ -8103,7 +8103,8 @@ footer .item .logo {
 }
 
 footer .item .logo img {
-  width: 50px;
+  width: 8rem;
+  height: 5rem;
 }
 
 footer .item .social a {
