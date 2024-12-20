@@ -1,1 +1,7 @@
-{}
+{
+  "/(dark)/home/page": "app/(dark)/home/page.js",
+  "/(dark)/services/page": "app/(dark)/services/page.js",
+  "/(dark)/about/page": "app/(dark)/about/page.js",
+  "/(dark)/contact/page": "app/(dark)/contact/page.js",
+  "/(dark)/project-details2/project-details2-dark/page": "app/(dark)/project-details2/project-details2-dark/page.js"
+}

@@ -62,21 +62,6 @@ const Team = () => {
                     ))}
                   </div>
                 </div>
-                <div className="col-sm-6 toleft valign">
-                  <div className="full-width text-left">
-                    {teamsDate.teams.slice(2, 4).map((team, index) => (
-                      <div key={team.id}>
-                        <div
-                          className={`img sizxl ${index + 1 != teamsDate.teams.slice(2, 4).length ? "mb-30" : null}`}
-                          data-tooltip-tit={team.title}
-                          data-tooltip-sub={team.sub}
-                        >
-                          <img src={team.image} alt="" className="imago wow" />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
               </div>
             </div>
           </div>

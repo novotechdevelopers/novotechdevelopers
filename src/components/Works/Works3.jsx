@@ -65,18 +65,18 @@ function Works3() {
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/2.jpg" alt="" />
+                        <img src="/img/portfolio/graphicJet.png" alt="" />
                       </span>
                     </div>
                     <div className="cont">
                       <h6>
                         <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
+                          Web Development
                         </Link>
                       </h6>
                       <h4>
                         <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
+                          Graphic Jet
                         </Link>
                       </h4>
                     </div>
@@ -87,18 +87,18 @@ function Works3() {
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/1.jpg" alt="" />
+                        <img src="/img/portfolio/alMatanaTransport.png" alt="" />
                       </span>
                     </div>
                     <div className="cont">
                       <h6>
                         <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
+                        Web Development
                         </Link>
                       </h6>
                       <h4>
                         <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
+                          Al Matana Tranport
                         </Link>
                       </h4>
                     </div>
@@ -109,18 +109,18 @@ function Works3() {
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/3.jpg" alt="" />
+                        <img src="/img/portfolio/fixJet.png" alt="" />
                       </span>
                     </div>
                     <div className="cont">
                       <h6>
                         <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
+                        Web Development
                         </Link>
                       </h6>
                       <h4>
                         <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
+                          Fix Jet
                         </Link>
                       </h4>
                     </div>
@@ -131,62 +131,18 @@ function Works3() {
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/4.jpg" alt="" />
+                        <img src="/img/portfolio/dowarAlOmda.png" alt="" />
                       </span>
                     </div>
                     <div className="cont">
                       <h6>
                         <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
+                        Web Development
                         </Link>
                       </h6>
                       <h4>
                         <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="content">
-                    <div className="img">
-                      <span className="imgio">
-                        <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/5.jpg" alt="" />
-                      </span>
-                    </div>
-                    <div className="cont">
-                      <h6>
-                        <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
-                        </Link>
-                      </h6>
-                      <h4>
-                        <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="content">
-                    <div className="img">
-                      <span className="imgio">
-                        <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/6.jpg" alt="" />
-                      </span>
-                    </div>
-                    <div className="cont">
-                      <h6>
-                        <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
-                        </Link>
-                      </h6>
-                      <h4>
-                        <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
+                          Dowar Al Omda Real Estate
                         </Link>
                       </h4>
                     </div>

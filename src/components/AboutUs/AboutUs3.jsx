@@ -41,14 +41,14 @@ const AboutUs3 = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 p-0">
                   <div className="item">
                     <div
                       className="imgtwo big-bord wow fadeInUp"
                       data-wow-delay=".6s"
                     >
                       <img
-                        className="thumparallax"
+                        className="thumparallax img-fluid"
                         src={AboutUs3date.image2}
                         alt=""
                       />
@@ -71,7 +71,7 @@ const AboutUs3 = () => {
                   {AboutUs3date.content.second}
                 </p>
               </Split>
-              <Link href={`/about/about-dark`} className="butn bord curve mt-40 wow fadeInUp" data-wow-delay=".8s">
+              <Link href={`/about`} className="butn bord curve mt-40 wow fadeInUp" data-wow-delay=".8s">
                 <span>{AboutUs3date.smallTitle}</span>
               </Link>
               <br />
