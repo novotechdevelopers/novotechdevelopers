@@ -14,7 +14,7 @@ function PagesHeader({ children, imageLink }) {
           </div>
           <div className="col-lg-10">
             <div className="img">
-              <img src={imageLink} alt="" />
+              <img className='' src={imageLink} alt=""/>
             </div>
           </div>
         </div>

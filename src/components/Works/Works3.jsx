@@ -65,7 +65,7 @@ function Works3() {
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/graphicJet.png" alt="" />
+                        <img src="/img/portfolio/graphicJet.png" alt="" style={{borderRadius: "15px"}}/>
                       </span>
                     </div>
                     <div className="cont">
@@ -87,7 +87,7 @@ function Works3() {
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/alMatanaTransport.png" alt="" />
+                        <img src="/img/portfolio/alMatanaTransport.png" alt="" style={{borderRadius: "15px"}}/>
                       </span>
                     </div>
                     <div className="cont">
@@ -109,7 +109,7 @@ function Works3() {
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/fixJet.png" alt="" />
+                        <img src="/img/portfolio/fixJet.png" alt="" style={{borderRadius: "15px"}}/>
                       </span>
                     </div>
                     <div className="cont">
@@ -131,7 +131,7 @@ function Works3() {
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/dowarAlOmda.png" alt="" />
+                        <img src="/img/portfolio/dowarAlOmda.png" alt="" style={{borderRadius: "15px"}}/>
                       </span>
                     </div>
                     <div className="cont">

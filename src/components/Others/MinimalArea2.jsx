@@ -14,7 +14,7 @@ function MinimalArea1() {
     <section className="min-area">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6" >
             <div className="img">
               <img className="thumparallax-down" src="/img/min-area.jpg" alt="" />
             </div>
@@ -36,7 +36,7 @@ function MinimalArea1() {
                   We work with some of the most successful businesses.
                 </li>
               </ul>
-              <Link href="/about/about-dark" className="butn bord curve mt-40 wow fadeInUp" data-wow-delay=".8s">
+              <Link href="/about" className="butn bord curve mt-40 wow fadeInUp" data-wow-delay=".8s">
                 <span>Discover</span>
               </Link>
               <br />

@@ -22,14 +22,13 @@ function AboutDark() {
     <>
       <Loading />
       <Navbar />
-      <PagesHeader imageLink="/img/slid/about.jpg">Empowering The Tech World, One Project At A Time—Our Dedicated Team Delivers Advanced Development Services, Driving Innovation And Excellence In Technology.</PagesHeader>
+      <PagesHeader imageLink="/img/aboutus/aboutus3.png">Empowering The Tech World, One Project At A Time—Our Dedicated Team Delivers Advanced Development Services, Driving Innovation And Excellence In Technology.</PagesHeader>
       <AboutIntro />
       <Services style="4item" />
       <TestimonialsWithVideo />
       <SkillsCircle from="aboutPage" />
       <Team />
       <MinimalArea />
-      
       <CallToAction />
       <Footer />
     </>

@@ -13,6 +13,8 @@ import MinimalArea2 from "@/components/Others/MinimalArea2";
 import FullTestimonials from "@/components/Testimonials/FullTestimonials";
 import Team from "@/components/Team/Team1";
 import Blogs from "@/components/Blogs/Blogs4";
+import Services2 from "@/components/Services/Services7"
+import Services3 from "@/components/Services/Services8"
 
 import Footer from "@/components/Common/Footer";
 
@@ -31,11 +33,11 @@ function HomePage() {
       <Header />
       <AboutUs />
       <Works />
+      <Services2 />
       <Services />
       <MinimalArea2 />
-    
+      <Services3 />
       <Team />
-      
       <CallToAction />
       <Footer />
     </>
