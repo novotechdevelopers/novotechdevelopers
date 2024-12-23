@@ -19,11 +19,12 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
               <div className="sec-head text-center">
-                <h6 className="wow fadeIn" data-wow-delay=".5s">Portfolio</h6>
+                <h6 className="wow fadeIn" data-wow-delay=".5s">Services</h6>
                 <h3 className="wow color-font fz-40 fw-500">
-                  Our Recent Web Design &amp; <br />
-                  Some Past Projects.
+                  Our Services &amp; <br />
+                  Creative Solutions
                 </h3>
+                <p>Explore our expert services in web design, app development, branding, and printing to elevate your business.</p>
               </div>
             </div>
           </div>
@@ -41,9 +42,9 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
               } col-12`}>
               <div className="filter">
                 <span data-filter="*" className="active"> All </span>
-                <span data-filter=".brand">Branding</span>
-                <span data-filter=".web">Mobile App</span>
-                <span data-filter=".graphic">Creative</span>
+                <span data-filter=".brand">Digital Marketing Solutions</span>
+                <span data-filter=".web">Custom Application Solutions</span>
+                <span data-filter=".graphic">Design & Branding Services</span>
               </div>
             </div>
           }
@@ -62,8 +63,8 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
                 </Link>
               </div>
               <div className="cont">
-                <h6>Creativity Demand</h6>
-                <span> <a href="#0">Design</a>, <a href="#0">WordPress</a> </span>
+                <h6>Graphic & Brand Design</h6>
+                <span><a href="#0">Creating unique, memorable designs that represent your brand’s identity with precision.</a> </span>
               </div>
             </div>
 
@@ -80,8 +81,8 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
                 </Link>
               </div>
               <div className="cont">
-                <h6>Through The Breaking</h6>
-                <span> <a href="#0">Design</a>, <a href="#0">WordPress</a> </span>
+                <h6>Website Design & Development</h6>
+                <span><a href="#0">Building stunning, user-centric websites that elevate your brand’s presence.</a> </span>
               </div>
             </div>
 
@@ -98,8 +99,8 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
                 </Link>
               </div>
               <div className="cont">
-                <h6>Create With Creatives</h6>
-                <span> <a href="#0">Design</a>, <a href="#0">WordPress</a> </span>
+                <h6>Brand Strategy & Planning</h6>
+                <span><a href="#0">Shaping the future of your brand with a clear, actionable strategy.</a></span>
               </div>
             </div>
 
@@ -116,8 +117,8 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
                 </Link>
               </div>
               <div className="cont">
-                <h6>Energies of Love</h6>
-                <span> <a href="#0">Design</a>, <a href="#0">WordPress</a> </span>
+                <h6>Custom Printing Services</h6>
+                <span><a href="#0">Turning your designs into high-quality printed materials that make a lasting impression.</a> </span>
               </div>
             </div>
 
@@ -134,8 +135,8 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
                 </Link>
               </div>
               <div className="cont">
-                <h6>See It Yourself</h6>
-                <span> <a href="#0">Design</a>, <a href="#0">WordPress</a> </span>
+                <h6>Mobile App Development</h6>
+                <span><a href="#0">Bringing your business to life on mobile, delivering seamless experiences everywhere.</a> </span>
               </div>
             </div>
 
@@ -152,8 +153,8 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
                 </Link>
               </div>
               <div className="cont">
-                <h6>Blast From The Past</h6>
-                <span> <a href="#0">Design</a>, <a href="#0">WordPress</a> </span>
+                <h6>Creative Content Development</h6>
+                <span><a href="#0">Crafting compelling content that captivates your audience and drives results.</a> </span>
               </div>
             </div>
           </div>

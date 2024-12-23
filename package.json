@@ -18,6 +18,7 @@
     "react-circular-progressbar": "^2.1.0",
     "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
+    "react-ga": "^3.3.1",
     "react-phone-input-2": "^2.15.1",
     "react-scroll": "^1.8.9",
     "react-select": "^5.8.0",
@@ -26,6 +27,7 @@
     "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
+    "@types/gtag.js": "^0.0.20",
     "eslint-config-next": "^14.2.5",
     "sass": "^1.66.1"
   }

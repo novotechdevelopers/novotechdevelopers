@@ -14,8 +14,8 @@ function Footer({ hideBGCOLOR }) {
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>Deira - Near Dnata Dubai Al Najoum Building - Office Number 107</p>
+                    <h6>Office Address</h6>
+                    <p>Office # 206 , Al Etihad Building, Port Saeed Area, Opposite to Pullman Hotel, City Center Diera, Dubai, UAE</p>
                   </div>
                 </li>
                 <li>
@@ -29,7 +29,14 @@ function Footer({ hideBGCOLOR }) {
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+971-42-283-6788</p>
+                    <p>+971(04) 570 4168</p>
+                  </div>
+                </li>
+                <li>
+                  <span className="icon pe-7s-chat"></span>
+                  <div className="cont">
+                    <h6>Whatsapp Us</h6>
+                    <p>+971(50) 334 2774</p>
                   </div>
                 </li>
               </ul>

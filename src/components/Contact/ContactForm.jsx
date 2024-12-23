@@ -56,10 +56,11 @@ function ContactForm({ theme }) {
                 <h3 className="wow" data-splitting>{contentFormData.title}</h3>
               </Split>
               <div className="item mb-40">
-                <h5>
-                  <a href="#0">{contentFormData.email}</a>
+                <h5><img src='/img/emailIcon.png'style={{width:'20px', height:'20px', paddingRight:'5px'}} />
+                   <a href="#0">{contentFormData.email}</a>
                 </h5>
-                <h5>{contentFormData.phone}</h5>
+                <h5><a href="tel:+97145704168"><img src='/img/telephoneIcon.png'style={{width:'20px', height:'20px'}} />{contentFormData.phone}</a></h5>
+                <h5><a href="https://wa.me/971503342774"><img src='/img/whatsappIcon.png'style={{width:'20px', height:'20px'}} />{contentFormData.mobile}</a></h5>
               </div>
               <Split>
                 <h3 className="wow" data-splitting>Visit Us.</h3>
@@ -67,8 +68,6 @@ function ContactForm({ theme }) {
               <div className="item">
                 <h6>
                   {contentFormData.location.first}
-                  <br />
-                  {contentFormData.location.second}
                 </h6>
               </div>
               <div className="social mt-50">
