@@ -70,174 +70,104 @@ function instaPost() {
             <div className="swiper-container">
               <Swiper className="swiper-wrapper" {...swiperOptions}>
                 <SwiperSlide className="swiper-slide">
-                  <div className="content">
+                  <div className=""><a href="https://www.instagram.com/novotech.uae/" target='_blank'>
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
                         <img src="/img/insta/posts/1.png" alt="" style={{borderRadius: "15px", height:"350px", width: "350px"}}/>
                       </span>
                     </div>
-                    <div className="cont">
-                      <h4>
-                        <Link href="https://www.instagram.com/novotech.uae/">
-                          NOVOTECH
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
+                    </a></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                <div className="content">
+                <div className=""><a href="https://www.instagram.com/novotech.uae/" target='_blank'>
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
                         <img src="/img/insta/posts/2.png" alt="" style={{borderRadius: "15px", height:"350px", width: "350px"}}/>
                       </span>
                     </div>
-                    <div className="cont">
-                      <h4>
-                        <Link href="https://www.instagram.com/novotech.uae/">
-                          NOVOTECH
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
+                  </a></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                <div className="content">
+                <div className=""><a href="https://www.instagram.com/novotech.uae/" target='_blank'>
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
                         <img src="/img/insta/posts/3.png" alt="" style={{borderRadius: "15px", height:"350px", width: "350px"}}/>
                       </span>
                     </div>
-                    <div className="cont">
-                      <h4>
-                        <Link href="https://www.instagram.com/novotech.uae/">
-                          NOVOTECH
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
+                  </a></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                <div className="content">
+                <div className=""><a href="https://www.instagram.com/novotech.uae/" target='_blank'>
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
                         <img src="/img/insta/posts/4.png" alt="" style={{borderRadius: "15px", height:"350px", width: "350px"}}/>
                       </span>
                     </div>
-                    <div className="cont">
-                      <h4>
-                        <Link href="https://www.instagram.com/novotech.uae/">
-                          NOVOTECH
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
+                  </a></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                <div className="content">
+                <div className=""><a href="https://www.instagram.com/novotech.uae/" target='_blank'>
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
                         <img src="/img/insta/posts/5.png" alt="" style={{borderRadius: "15px", height:"350px", width: "350px"}}/>
                       </span>
                     </div>
-                    <div className="cont">
-                      <h4>
-                        <Link href="https://www.instagram.com/novotech.uae/">
-                          NOVOTECH
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
+                  </a></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                <div className="content">
+                <div className=""><a href="https://www.instagram.com/novotech.uae/" target='_blank'>
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
                         <img src="/img/insta/posts/6.png" alt="" style={{borderRadius: "15px", height:"350px", width: "350px"}}/>
                       </span>
                     </div>
-                    <div className="cont">
-                      <h4>
-                        <Link href="https://www.instagram.com/novotech.uae/">
-                          NOVOTECH
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
+                  </a></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                <div className="content">
+                <div className=""><a href="https://www.instagram.com/novotech.uae/" target='_blank'>
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
                         <img src="/img/insta/posts/7.png" alt="" style={{borderRadius: "15px", height:"350px", width: "350px"}}/>
                       </span>
                     </div>
-                    <div className="cont">
-                      <h4>
-                        <Link href="https://www.instagram.com/novotech.uae/">
-                          NOVOTECH
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
+                  </a></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                <div className="content">
+                <div className=""><a href="https://www.instagram.com/novotech.uae/" target='_blank'>
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
                         <img src="/img/insta/posts/8.png" alt="" style={{borderRadius: "15px", height:"350px", width: "350px"}}/>
                       </span>
                     </div>
-                    <div className="cont">
-                      <h4>
-                        <Link href="https://www.instagram.com/novotech.uae/">
-                          NOVOTECH
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
+                  </a></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                <div className="content">
+                <div className=""><a href="https://www.instagram.com/novotech.uae/" target='_blank'>
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
                         <img src="/img/insta/posts/9.png" alt="" style={{borderRadius: "15px", height:"350px", width: "350px"}}/>
                       </span>
                     </div>
-                    <div className="cont">
-                      <h4>
-                        <Link href="https://www.instagram.com/novotech.uae/">
-                          NOVOTECH
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
+                  </a></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                <div className="content">
+                <div className=""><a href="https://www.instagram.com/novotech.uae/" target='_blank'>
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
                         <img src="/img/insta/posts/10.png" alt="" style={{borderRadius: "15px", height:"350px", width: "350px"}}/>
                       </span>
                     </div>
-                    <div className="cont">
-                      <h4>
-                        <Link href="https://www.instagram.com/novotech.uae/">
-                          NOVOTECH
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
+                  </a></div>
                 </SwiperSlide>
               </Swiper>
               <div className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">

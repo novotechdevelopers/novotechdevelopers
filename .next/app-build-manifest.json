@@ -1,11 +1,5 @@
 {
   "pages": {
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
     "/(dark)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -16,10 +10,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dark)/home/page.js"
     ],
-    "/(dark)/about/page": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(dark)/about/page.js"
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/(dark)/services/page": [
       "static/chunks/webpack.js",
@@ -30,16 +25,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(dark)/contact/page.js"
-    ],
-    "/(dark)/project-details2/project-details2-dark/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dark)/project-details2/project-details2-dark/page.js"
-    ],
-    "/(dark)/eventUpdates/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dark)/eventUpdates/page.js"
     ]
   }
 }
