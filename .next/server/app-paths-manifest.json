@@ -1,5 +1,4 @@
 {
   "/(dark)/home/page": "app/(dark)/home/page.js",
-  "/(dark)/services/page": "app/(dark)/services/page.js",
-  "/(dark)/contact/page": "app/(dark)/contact/page.js"
+  "/(dark)/services/page": "app/(dark)/services/page.js"
 }

@@ -5,11 +5,6 @@ import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper';
 
-const link= () => {            //remember the onclick attribute mentioned in img tag is having name **link**
-
-  window.location.href = "https://www.instagram.com/novotech.uae/";
- 
-  }
 
 const swiperOptions = {
   modules: [Navigation, Autoplay],
