@@ -57,7 +57,7 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
                 : 'col-12'
               } items graphic wow fadeInUp`} data-wow-delay=".4s">
               <div className="item-img">
-                <Link className="imago wow" href="/project-details2/project-details2-dark">
+                <Link className="imago wow" href="#">
                   <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>
@@ -75,7 +75,7 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
                 : 'col-12'
               } items web wow fadeInUp`} data-wow-delay=".4s">
               <div className="item-img">
-                <Link className="imago wow" href="/project-details2/project-details2-dark">
+                <Link className="imago wow" href="#">
                   <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>
@@ -93,14 +93,14 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
                 : 'col-12'
               } items brand wow fadeInUp`} data-wow-delay=".4s">
               <div className="item-img">
-                <Link href="/project-details2/project-details2-dark" className="imago wow">
+                <Link href="#" className="imago wow">
                   <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
                 <h6>Brand Strategy & Planning</h6>
-                <span><a href="#0">Shaping the future of your brand with a clear, actionable strategy.</a></span>
+                <span><a href="#0">Crafting innovative strategies that empower your brand to stand out and achieve long-term success.</a></span>
               </div>
             </div>
 
@@ -111,7 +111,7 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
                 : 'col-12'
               } items graphic wow fadeInUp`} data-wow-delay=".4s">
               <div className="item-img">
-                <Link className="imago wow" href="/project-details2/project-details2-dark">
+                <Link className="imago wow" href="#">
                   <img src="/img/portfolio/portfolio/1/4.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>
@@ -129,7 +129,7 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
                 : 'col-12'
               } items web wow fadeInUp`} data-wow-delay=".4s">
               <div className="item-img">
-                <Link className="imago wow" href="/project-details2/project-details2-dark">
+                <Link className="imago wow" href="#">
                   <img src="/img/portfolio/portfolio/1/5.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>
@@ -147,7 +147,7 @@ function WorksStyle2({ grid, filterPosition, hideFilter }) {
                 : 'col-12'
               } items brand wow fadeInUp`} data-wow-delay=".4s">
               <div className="item-img">
-                <Link className="imago wow" href="/project-details2/project-details2-dark">
+                <Link className="imago wow" href="#">
                   <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>

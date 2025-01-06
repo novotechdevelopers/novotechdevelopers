@@ -15,7 +15,7 @@ function WorksStyle1() {
         <div className="row lg-space">
           <div className="col-lg-4 col-md-6">
             <div className="item">
-              <Link href="/project-details2/project-details2-dark">
+              <Link href="#">
                 <div className="img" data-tooltip-tit="Work image" data-tooltip-sub="Design">
                   <img src="/img/portfolio/portfolio/1/1.jpg" alt="" />
                 </div>

@@ -18,8 +18,8 @@ function CallToAction() {
           </div>
 
           <div className="col-md-4 col-lg-3 valign">
-            <a href="#" className="butn bord curve wow fadeInUp" data-wow-delay=".5s">
-              <span>Purchase Now</span>
+            <a href="/contact" className="butn bord curve wow fadeInUp" data-wow-delay=".5s">
+              <span>Contact Us Today</span>
             </a>
           </div>
         </div>

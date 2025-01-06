@@ -67,7 +67,7 @@ function ContactForm({ theme }) {
               </Split>
               <div className="item">
                 <h6>
-                  {contentFormData.location.first}
+                  {contentFormData.location.first}<br/><strong>P.O. Box Number: 48173</strong>
                 </h6>
               </div>
               <div className="social mt-50">
